@@ -1,0 +1,19 @@
+int type:
+int
+double
+char:one letter
+string
+bool
+
+#include <iostream>
+#include <fstream>
+#include <string>
+
+Declare an array:
+int grades[100];
+double prices[10];
+
+prices[0] = 80;
+prices[1] = 90;
+...
+prices[9] = 85;

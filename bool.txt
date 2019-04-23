@@ -1,0 +1,22 @@
+The  bool  data type allows you to create small integer variables that are suitable for holding  true  or  false  values.  
+Program   2-17    demonstrates the definition and assignment of a  bool  variable. 
+
+Program 2-17  
+ 1  // This program demonstrates boolean variables.   
+#include <iostream>
+using namespace std;
+
+int main() 
+{ 
+bool boolValue; 
+
+boolValue = true;
+cout << boolValue << endl;
+boolValue = false; 
+cout << boolValue << endl; 
+return 0; 
+}
+    
+Program Output  1  0  
+ 
+As you can see from the program output, the value true is represented in memory by the number 1, and false is represented by 0. You will not be using bool variables until Chapter 4,however,so just remember they are useful for evaluating conditions that are either true or false. 

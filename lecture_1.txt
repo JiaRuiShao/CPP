@@ -1,0 +1,213 @@
+Terminal Applications
+Windows Applications
+Web Applications (Database - Server - Browser)
+Mobile Applications (Small Screen iOS/Android - Touch Input)
+Augmented Reality / Virtual Reality / Wearable
+
+
+Low Level Language
+Assembly 
+C++ Language
+	Cross-Platform
+	Efficiency
+	Game Development
+
+Higher Level Languages
+.NET (C#, VB.NET)
+Java
+Python
+
+
+Terminal Screen Applications
+
+
+1- assignments
+2- computation (math computations)
+3- decisions 
+4- repetitions
+
+Computers are good at:
+	carrying out repetitive tasks concistently without mistake. 
+
+Computers are bad at:
+	ethics/moral concepts
+	random numbers (pseudo random numbers)
+	
+Programming computers:
+	very specific
+	break down to simple tasks
+	
+
+1- Data: information stored or needed for the functionality to carry out a task. a piece of information (name, age, year, color)
+
+2- Statements: Operation that are performed on the data. 
+	math operations -- 00000001: add
+					   00000010: multiplication
+					   00000011: subtraction.
+					   00000100: division
+	i/o operation -- input/output operation. 
+	
+					   
+
+8 bit - 1 byte
+1024 byte - 1 KB
+1024 KB - 1 MB
+1024 MB - 1 GB
+1024 GB - 1 TB
+
+Text Data uses a character mapping table to map characters to numbers. (ASCII: 1 byte per character, Unicode: 2 bytes per character)
+
+Images: Every pixel has a numeric value. 
+(RGB)
+(255,0,0) bright red
+(20,0,0) bright red
+(255,255,0) bright yellow
+
+
+INPUT -> PROCESSING -> OUTPUT
+
+INPUT, OUTPUT are Data
+Processing: a set of statements
+
+
+a set of statements -- your program - C++ language
+
+int x = 15 + 2;
+
+a compiler -- takes the program in the language in which it was written and translates to machine language (ones and zeros)
+
+an IDE -- integrated development environment. 
+
+Visual Studio 2017 Community Edition 
+	IMPORTANT: C++ does not get installed automatically, need to go to Custom install and check C++. 
+	Only on Windows -- need to first run windows within your MAC if you have MAC. 
+	
+
+	
+INPUT, OUTPUT: data -- variables in our C++ program. 
+
+a variable name must start with a letter or underscore character followed by a letter, underscore char, or a number. 
+
+
+cout << “”输出
+cin >> “”输入
+cout<<""<<endl;//刷新并换行
+cout<<""<<flush;//刷新不换行，后继续输出在同一行
+
+
+
+
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					   
+					   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,61 @@
+
+Functions
+File I/O
+
+FUNCTIONS
+//define the function
+1.int function -- returns variable
+int Function_name(int needed_variable1,int needed_variable2[], double needed_variable3)
+return output_variable;
+
+2.void function -- returns nothing
+void Function_name(int needed_variable1,int needed_variable2[], double needed_variable3)
+
+//call the function
+(1.declear the variable)
+2.call the function
+(int variable = )Function_name(needed_variable1,needed_variable2, needed_variable3);
+
+Note:
+*arguments sent by order; variable name doesn't matter!!!
+
+when sending input to functions, there are two ways:
+1- by value (give the value to instead of the address; any changes to the variable will not be accessible to the caller becasue the )
+if the 
+value can be sent by value or by reference
+2- by reference (address of the book)
+arrays are always by reference
+int &variable;
+
+*
+//PROTOTYPES -- has to match exactly with the function below
+ANYTIME U CHANGE THE NAME/DEFINATION OF THE FUNCTION, REMEMBER TO UPDATE THE CHANGES TO THE PROTOTYPE!
+copy the head of the functions and put them before the main function
+(C++ always compile in order -- line after line)
+
+
+FILE I/O
+step 1. ADD #include<string>;
+step 2. open the file either for input or output
+if u read, refer to ifsreanm;
+  while (!file.eof())
+  {
+    file >> reportID[reportcount];
+    file >> reportbedroom[reportcount];
+    file >> reportprice[reportcount];
+    reportcount++
+   }
+
+if u write, refer to ofstream;
+step 3. save the file (outside the loop)
+ofstream file("myfile.txt"); //open the file
+cout - refer to the screen
+file - refer to the file
+file.close(); //close the file
+
+remove indl -- easier for machine to read
+
+
+Q£º
+function 3 repetitive
+function 4 MN £¿£¿£¿rather than CA
