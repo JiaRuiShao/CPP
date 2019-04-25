@@ -1,0 +1,116 @@
+Functions: 
+	- Organization
+	- Modularization
+	- Reusability
+
+C++ is Procedural Programming
+
+integer grade[1000]
+string gradeStudentID[1000]
+string gradeCourseID[1000]
+
+string CourseID[1000]
+string CourseName[1000]
+string CourseINstgructor[1000]
+string CourseRoom[1000]
+
+string RegistrationStudents[1000]
+string RegistrationCourseID[1000]
+-------------------------------------
+Using classes to arrange data¡ª¡ª
+class Grade
+     int Grad;
+     string StudentID;
+     string CourseID;
+
+class Course
+     string ID;
+     string Name;
+     string Instructor;
+     string Room;
+
+class Registration
+     string Students;
+     string CourseID;
+
+============================================
+Class Definitions
+an object -- an Instace of that class
+class is the blueprint of the object
+
+// Define A Class
+class ClassName
+{
+  Access Specifier:    // can be private, public or protected
+
+  Data Members;        //variables to be used
+
+  Member Functions(){} //Methods to access data members
+/*
+eg: 
+void printname()
+{
+    cout << "The sentence u want to print." << variables;
+ }
+*/
+
+};                     // Class name ends with a semicolon
+
+Declaring Objects: When a class is defined, only the specification for the object is defined; no memory or storage is allocated. To use the data and access functions defined in the class, you need to create objects.
+
+// Declare an object of class ClassName
+ClassName ObjectName;
+
+// Accessing data members and member functions
+The data members and member functions of class can be accessed using the dot(¡®.¡¯) operator with the object. 
+For example: if the name of object is obj and you want to access the member function with the name printName() then you will have to write obj.printName() .
+
+
+===========================================================
+INPUT >> PROCESSING >> OUTPUT
+
+DATA (VARIABLES) determining classes
+STATEMENTS that operate on data. 
+
+name of the candidate
+amount of money donated
+donor last name
+
+Donation
+	string Candidate
+	string Donor
+	double Amount
+	
+
+Steps by Step Approach
+
+Step 0: write the starting program code
+
+Step 1: Determine the class and define the class right after "using namespace std;" line. 
+
+Step 2: Inside the main() function, at the bery begining, define the array that will hold the data. the array will be of type we defined in Step 1. You may need another variable that holds the number of actual records in the system. 
+
+Step 3: set up your main program loop; and inside it, display the program menu. Also ask for user's choice after displaying the menu.
+
+Step 4: setup if statements inside the main program loop (after we get the choice from user). if statements will have different path depending on user choice (for each feature). 
+
+Step 5: user choice 0 gets out of the loop. 
+
+Step 6: implemnt each feature inside its own branch of the if statement. test each feature after implementation. you may want to do add and report features first as it would make it easier to debug later on. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

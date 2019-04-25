@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>JiaRui's Ultimate Game</title>
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <style>
+        document, body {
+            height: 100%;
+            width: 100%;
+            background-image: url("https://s3.envato.com/files/234687569/Halloween%20Game%20Background/Halloween%20BG%2001/Halloween%20Background%2001.png");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            overflow: hidden;
+        }
+    </style> 
+</head>
+<body>
+    <img id="character" src="https://images.vexels.com/media/users/3/143810/isolated/preview/622a68a165a7c71e97d485c687cda054-black-ghost-silhouette-5-by-vexels.png" width="100" height="100" />
+    <div id="scoreboard">Score: 0</div>
+</body>
+</html>
+<script>
+    var score = 0; //start with score 0
+    var scoreboard = document.getElementById("scoreboard");
+    scoreboard.style.color = "black";
+    scoreboard.style.fontSize="140%";
+
+    //get the character from the document
+    var character = document.getElementById("character");
+    character.style.position = "absolute";
+    character.onclick = function () {
+        score += 10; //everytime the character is touched we increment score by 10
+        scoreboard.innerHTML = "Score: " + score;
+    }
+
+    var turnCount = 0;
+
+    setInterval(function () {
+        turnCount++;
+        if (turnCount > 10) {
+            alert("Game Over, your score is " + score + ".")
+            scoreboard.innerHTML = "Score: " + score;
+            score = 0;
+            turnCount = 0;
+        }
+        //compute random values for the left and top of the img
+        var left = Math.floor(Math.random() * window.innerWidth);
+        var top = Math.floor(Math.random() * window.innerHeight);
+
+        //set the position of the character using the random values
+        character.style.left = left + "px";
+        character.style.top = top + "px";
+
+    }, 2000)
+
+</script>

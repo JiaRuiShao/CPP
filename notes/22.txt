@@ -1,0 +1,62 @@
+cout << “”输出
+cin >> “”输入
+cout<<""<<endl;//刷新并换行
+cout<<""<<flush;//刷新不换行，后继续输出在同一行
+
+
+C++ is an entension of C
+The first thing to tell the Visual Studio is to tell which library are you using.
+
+INPUT > PROCESSING > OUTPUT
+
+DATA - VARIABLES (little boxs in the memory)
+int
+double
+
+
+// (before codes) comments things-green colored
+
+if comments multiple lines:
+/*
+
+
+*/
+
+
+IF NOT WRITE "using standspace std;"
+-then before code, u should type "std::"to implt the standard language
+-std::cout >> "Hello World!" >> std::endl
+
+
+DATA - VARIABLE - TYPES
+Variables have
+ 1. Data Type (int)
+ 2. name (Grade1)
+ 3. optional intial value (before put sth; garbage in the intial box)
+
+u can't calculate the intial box in that only garbage in it
+
+debugging: a way of running the program step by step
+
+
+a equals b
+1) put b value into a a = b
+2) the value of a & b is the smae a == b
+
+&& AND
+|| OR
+
+
+Different ways of statement "IF"
+1) Run one by one
+If (>= 90)
+If (< 90 && >= 80)
+...
+
+2) Satisfy all 
+If (>= 90)
+Else if (>=80)
+Else
+
+
+

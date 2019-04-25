@@ -1,0 +1,35 @@
+#include <iostream> // read things from the screen and print on screen. 
+#include <fstream>  // read/write things from and to a file 
+#include <string>	// if your program deals with string data
+
+using namespace std;
+
+int main()
+{
+	int numOfGrades = 100000;
+	
+	int avg;
+	int total = 0;
+	int count = 0;
+
+	int grade = 0;
+	while (grade != -1)
+	{	
+		cout << "Enter Grade: ";
+		cin >> grade;
+
+		if (grade == -1)
+		{
+			break;
+		}
+
+		total += grade;
+		count++;
+	}
+
+	avg = total / count;
+	cout << "Average is " << avg << endl;
+
+	system("PAUSE");
+	return 0;
+}

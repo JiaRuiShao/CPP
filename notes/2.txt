@@ -1,0 +1,23 @@
+Q:
+1.Textbook reading
+2.
+
+bytes:
+
+1 byte:
+0 - 0
+1 - 1
+2 byte:
+00 - 0
+01 - 1
+10 - 2
+11 - 3 
+  
+making u code beautiful
+
+Variables i and j each have associated values. Swap them, so that i becomes associated with j's original value, and j becomes associated with is original value. You can use two more variables itemp and jtemp.
+
+Given two already defined variables, i and j, write a statement that swaps their associated values.
+
+7,16,17,18,25,26
+
